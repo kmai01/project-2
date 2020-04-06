@@ -1,0 +1,139 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">LOVEQUEST</a>
+    <a class="navbar-brand" href="/logout">Logout</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                Search
+            </button>
+        </form>
+    </div>
+</nav> -->
+
+    <h1>Profile Sign Up</h1>
+
+    <form action="/profile-signup" method="POST" id=profile_signup>
+        <label for="fname">FIRST NAME</label>
+        <input type="text" id="fname" name="fname">
+        <label for="lname">LAST NAME</label>
+        <input type="text" id="lname" name="lname">
+        <br><br>
+
+
+
+        <label for="birthday">BIRTHDAY</label>
+        <input type="date" id="birthday" value="" min="1920-01-01">
+        <br><br>
+
+        <label for="marital_status">MARITAL STATUS</label>
+        <input list="marital_status">
+        <datalist id="marital_status">
+            <option value="Single">
+            <option value="Separated">
+            <option value="Divorced">
+            <option value="Widowed">
+        </datalist>
+        <br><br>
+
+        <label for="sex">I'M</label>
+        <input list="sex">
+        <datalist id="sex">
+            <option value="MAN">
+            <option value="WOMAN">
+        </datalist>
+
+        <label for="desire">LOOKING FOR</label>
+        <input list="desire">
+        <datalist id="desire">
+            <option value="MAN">
+            <option value="WOMAN">
+        </datalist>
+        <br><br>
+
+        <label for="body_type">BODY TYPE</label>
+        <input list="body_type">
+        <datalist id="body_type">
+            <option value="Skinny">
+            <option value="Athletic">
+            <option value="Average">
+            <option value="Chubby">
+            <option value="Perfer not say">
+        </datalist>
+        <br><br>
+
+
+        <label for="education">EDUCATION</label>
+        <input list="education">
+        <datalist id="education">
+            <option value="University/college">
+            <option value="High School">
+            <option value="Technical/vocation">
+            <option value="Did not complete high school">
+            <option value="No formal qualification">
+        </datalist>
+        <br><br>
+
+        <label for="occupation">OCCUPATION</label>
+        <input type="text" id="occupation" name="occupation">
+        <br><br>
+
+        <label for="annual_income">ANNUAL INCOME</label>
+        <input list="annual_income">
+        <datalist id="annual_income">
+            <option value="Up to 20,000">
+            <option value="20.000 to 40.000">
+            <option value="40,000 to 60,000">
+            <option value="60,000 to 80,000">
+            <option value="80,000 to 100,000">
+            <option value="100,000 to 150,000">
+            <option value="150,000 to 250,000">
+            <option value="over 250,000">
+
+        </datalist>
+        <br><br>
+        
+        <label for="religion">RELIGION</label>
+        <input list="religion">
+        <datalist id="religion">
+            <option value="Christian">
+            <option value="Muslim">
+            <option value="Hindu">
+            <option value="Jewish">
+            <option value="Buddhist">
+            <option value="Scientology">
+            <option value="Spiritual but not religious">
+            <option value="Neiher religiousnor spiritual">
+            <option value="Other">
+            <option value="Perfer not say">
+        </datalist>
+        <br><br>
+
+        <label for="ethnicity">ETHNICITY</label>
+        <input list="ethnicity">
+        <datalist id="ethnicity">
+            <option value="White / caucasion">
+            <option value="Black / african descent">
+            <option value="Hispanic or latino">
+            <option value="Asian / pacific descent">
+            <option value="Indian">
+            <option value="Arabic / Middle Eastern">
+            <option value="Native American">
+            <option value="Other">
+            <option value="Perfer not say">
+        </datalist>
+        <br><br>
+
+        <label for="zipcode">OCCUPATION</label>
+        <input type="text" id="occupation" name="occupation">
+        <br><br>
+
+        <br>
+        <br>
+            <input type="submit" value="Sign Up">
+    </form>
